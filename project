@@ -1,0 +1,19 @@
+%This is the group project for COT 4501
+%First we have to take the input data.  We will assume (for now)
+%that the input files are in the correct format for libsvm, so we will use
+%that format too. 
+
+type input.txt; %reads input.txt from the desktop and prints to matlab
+input = fopen('input.txt','r');  %open file for reading
+colon = char(58);  %ascii for colon
+
+
+%What we need at this point is a way to remove the tag index from the column.
+% i/e right now all the leading 1s,2s, 3s, etc. in the columns preceding
+% the colons need to be removed.  
+
+[A,count] = fscanf(input, ['%f' colon])  %Read floats skipping colons
+fclose(input);
+
+%For some reason this only reads the first entry right now, it won't go to
+%the second row or column.  
