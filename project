@@ -1,19 +1,48 @@
 %This is the group project for COT 4501
-%First we have to take the input data.  We will assume (for now)
-%that the input files are in the correct format for libsvm, so we will use
-%that format too. 
+%So far, it takes input files of numbers (floats) and puts them into a
+%matlab matrix that matches the number of rows and columns of the original
+%file.  So, we need to implement the algorithm for  the data generated in
+%this file and convert the iris, wine, and survey datasets to the
+%appropriate format.  (The format is numbers separated by spaces)
 
-type input.txt; %reads input.txt from the desktop and prints to matlab
-input = fopen('input.txt','r');  %open file for reading
-colon = char(58);  %ascii for colon
+type input.txt; %reads input.txt from the appropriate folder and prints to matlab
 
 
-%What we need at this point is a way to remove the tag index from the column.
-% i/e right now all the leading 1s,2s, 3s, etc. in the columns preceding
-% the colons need to be removed.  
+input = fopen('input.txt','r'); %open file for reading
 
-[A,count] = fscanf(input, ['%f' colon])  %Read floats skipping colons
+
+ %%%
+ %This computes the number of columns
+
+ marker = ' '; 
+ fid = fopen('input.txt','rt');
+ tLines = fgets(fid);
+ columns = numel(strfind(tLines,marker)) + 1;
+ fclose(fid); 
+ 
+ %%%
+ %  This computes the number of rows
+ % Could be useful when choosing training set
+ 
+  c = 0;
+ fgetl(input);
+ while ~feof(input)    
+    fgetl(input);
+    c = c+1;
+ end
+ 
+ numrows = c+1;
+ 
+ %%%
+ 
+input = fopen('input.txt','r');  %open the file again (just to be safe)
+ 
+
+
+formatSpec = '%f';  %specify format (floats)
+
+A = fscanf(input, formatSpec, [columns,Inf]);  %Scans all the columns and puts the info into matrix A
+A=A' %transpose so it matches the original dimensions
+
 fclose(input);
 
-%For some reason this only reads the first entry right now, it won't go to
-%the second row or column.  
