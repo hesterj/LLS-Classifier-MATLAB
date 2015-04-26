@@ -47,13 +47,13 @@ lhs = [1:training]; %these are some initiializations
 lhstemp = 0;
 rhs = rand(4,10);
 rhstemp = [1:4];
-
+%%%  THE BELOW IS NOT CORRECT, lhs is matrix not scalar
 for i=1:training
     lhs(i)=x(i,:)*x(i,:)';      %compute lhs of w-hat
     lhstemp = lhs(i)+ lhstemp;  %summing lhs
 end
 lhstemp= 1/lhstemp;   %taking inverse of scalar
-
+%%%  THE ABOVE IS NOT CORRECT
 for i=1:training
     rhs(:,i)=col6(i)*x(i,:);   %compute rhs of w-hat
 end
