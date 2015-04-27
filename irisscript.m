@@ -21,7 +21,7 @@ col3 = C{3};
 col4 = C{4};
 col5 = C{5}; %tags
 
-training = 10;  %  specify first n rows to be used as training.  
+training = 4;  %  specify first n rows to be used as training.  
 %For training purposes I mixed up the original file a bit so that all the
 %different species of iris would be represented in the training set. 
 
@@ -43,17 +43,17 @@ end
 
 x = [col1 col2 col3 col4];  %data row vector
 
-lhs = [1:training]; %these are some initiializations
+lhs = zeros(4,4,training); %these are some initiializations
 lhstemp = 0;
-rhs = rand(4,10);
+rhs = rand(4,training);
 rhstemp = [1:4];
-%%%  THE BELOW IS NOT CORRECT, lhs is matrix not scalar
+
 for i=1:training
-    lhs(i)=x(i,:)*x(i,:)';      %compute lhs of w-hat
-    lhstemp = lhs(i)+ lhstemp;  %summing lhs
+    lhs(:,:,i)=x(i,:)'*x(i,:);      %compute lhs of w-hat
+    lhstemp = lhs(:,:,i)+ lhstemp;  %summing lhs
 end
-lhstemp= 1/lhstemp;   %taking inverse of scalar
-%%%  THE ABOVE IS NOT CORRECT
+lhstemp= inv(lhstemp);   %taking inverse
+
 for i=1:training
     rhs(:,i)=col6(i)*x(i,:);   %compute rhs of w-hat
 end
@@ -67,13 +67,13 @@ prediction = [1:numrows];
     
 for i=1:numrows    %  w'*x
     prediction(i) = w2*x(i,:)'; 
-    %{
+    
     if prediction(i)>0
         prediction(i) = 1;
     else 
         prediction(i) = -1;
     end
-    %}
+    
 end
 prediction=prediction';
 
