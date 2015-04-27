@@ -102,4 +102,4 @@ for i=training+1:numrows    %compare the predicted tag to the actual label
     end
 end
 
-percentage = count/(numrows-training)
+percentage = count/(numrows-training) %percentage in the test set correct
