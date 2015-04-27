@@ -68,7 +68,7 @@ prediction = [1:numrows];
 for i=1:numrows    %  w'*x
     prediction(i) = w2*x(i,:)'; 
     
-    if prediction(i)>0
+    if prediction(i)>0  %assign labels
         prediction(i) = 1;
     else 
         prediction(i) = -1;
