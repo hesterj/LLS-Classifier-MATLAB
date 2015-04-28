@@ -12,6 +12,9 @@ c = c+1;
 end
 numrows = c;
 
+constraint = zeros(numrows,1);
+constraint = constraint + 1;
+
 %%%
 B = fopen('iris.txt','r');
 C = textscan(B,'%f ,%f ,%f ,%f ,%s');
@@ -43,11 +46,11 @@ for n=1:numrows  % this loop assigns numerical tags
     end
 end
 
-x = [col1 col2 col3 col4];  %data row vector
+x = [constraint col1 col2 col3 col4];  %data row vector
 
-lhs = zeros(4,4,training); %these are some initiializations
+lhs = zeros(5,5,training); %these are some initiializations
 lhstemp = 0;
-rhs = zeros(4,3,training);
+rhs = zeros(5,3,training);
 rhstemp = [1:4];
 
 for i=1:training
@@ -60,7 +63,7 @@ for i=1:training
     rhs(:,:,i)=x(i,:)'*col6(:,:,i)';   %compute rhs of w-hat
 end
 
-rhsfinal=zeros(4,3);
+rhsfinal=zeros(5,3);
 
 for i=1:training  %summation of RHS
     rhsfinal = rhsfinal + rhs(:,:,i);
