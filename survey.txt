@@ -1,0 +1,186 @@
+1,0,2,1,-1,-1,1,-2,Instagram
+1,-1,1,1,-2,-1,0,-2,I use none of these
+2,1,1,-1,-2,1,-1,-1,Pinterest
+2,1,1,1,-2,2,-1,0,Pinterest
+2,-2,0,-2,-2,-1,-2,-2,Instagram
+2,-1,1,-2,-2,-1,1,-2,I use none of these
+2,-1,1,1,-2,-1,-1,-2,I use none of these
+2,1,1,1,-2,-2,1,-2,Instagram
+2,-2,-2,-2,-2,0,1,-2,Twitter
+1,0,0,0,-2,-1,1,-1,Twitter
+2,-2,-2,0,-2,-2,-2,-2,I use none of these
+1,-1,-1,-2,-2,-1,0,-2,Pinterest
+0,0,-2,2,-2,1,0,1,Tumblr
+1,-2,-1,1,-2,-2,-2,-2,I use none of these
+1,0,2,1,-2,-1,1,-1,Instagram
+2,0,-2,-2,-2,-2,1,-1,Twitter
+2,1,-1,1,-2,-1,1,0,Instagram
+2,0,0,-1,-2,-2,0,-2,I use none of these
+2,-2,-1,-1,-2,-2,-2,0,Tumblr
+1,-1,1,1,-2,-1,0,-2,I use none of these
+1,-1,1,1,-2,-1,1,0,Tumblr
+2,-2,0,1,-2,-1,-1,-2,I use none of these
+0,-1,-1,2,-2,0,-2,-2,Instagram
+1,-2,-1,0,-2,-1,2,-1,Twitter
+2,-1,0,-1,-2,-1,0,-1,Twitter
+2,-1,0,0,-2,-1,0,0,I use none of these
+0,1,0,-2,-1,-2,0,-1,I use none of these
+2,-1,0,-1,-1,-2,0,-1,Instagram
+2,-1,-1,1,-2,-2,-2,-2,I use none of these
+1,-2,0,-1,-2,0,1,-2,Instagram
+1,2,-2,-2,-2,-2,2,0,Twitter
+2,2,1,-2,-2,0,2,0,Twitter
+1,-1,-1,-2,-2,1,0,-1,Instagram
+2,0,0,1,-2,0,1,-1,I use none of these
+2,-1,-1,-2,-2,0,-1,-2,Twitter
+2,1,1,-2,-1,2,2,0,Instagram
+-1,-1,-1,-1,-2,-1,-1,-2,I use none of these
+2,2,0,1,-1,-1,-1,2,Tumblr
+0,-1,-1,1,-2,-1,0,0,I use none of these
+1,-1,-2,-1,-2,-2,1,-2,Instagram
+0,0,1,1,-2,-1,1,0,Tumblr
+-1,0,-1,-2,-2,-2,0,-1,I use none of these
+-2,-2,0,-2,-2,-2,2,-2,I use none of these
+2,2,1,-2,-1,0,2,0,Twitter
+2,0,0,-1,-2,-2,0,-1,Twitter
+1,1,1,0,-2,0,1,1,Tumblr
+2,0,0,1,-1,-1,-1,-2,Tumblr
+2,0,0,-2,-2,-2,1,0,Twitter
+2,0,-1,1,-2,-2,0,-2,Instagram
+0,1,0,-1,-2,-1,-1,-1,Instagram
+2,-1,0,0,-2,2,-1,-1,Tumblr
+1,0,1,-2,-1,1,2,-1,Tumblr
+2,1,2,-1,-2,-1,1,-1,I use none of these
+1,0,-1,-1,-2,-1,2,0,Twitter
+2,1,-1,1,-2,-1,1,-1,Twitter
+2,-2,-1,-2,-2,-2,1,-1,I use none of these
+1,-1,-1,-1,-2,-2,0,-1,Instagram
+2,0,0,1,-2,0,0,-2,I use none of these
+2,1,0,-2,-2,-2,0,-1,Instagram
+2,0,1,-1,-2,-1,0,-1,Instagram
+-2,1,-2,-2,-2,-2,2,-2,Tumblr
+1,-1,0,1,-2,0,0,-1,Instagram
+2,-1,0,-1,-1,0,-1,-2,Instagram
+2,0,0,1,-2,-2,-1,-2,Instagram
+2,1,0,1,-2,-2,1,-1,Instagram
+1,-1,0,-1,-2,-2,0,-1,I use none of these
+2,2,1,-2,-2,-2,1,1,Twitter
+-2,0,0,1,-2,0,-1,-2,Instagram
+1,1,0,-1,-2,0,1,-1,Instagram
+1,-2,-2,-1,-2,-1,-2,-2,I use none of these
+1,-2,1,-2,-2,0,1,1,Twitter
+2,-1,2,1,-1,1,0,-1,Instagram
+2,1,1,-2,-2,-1,2,0,Twitter
+2,1,-1,2,-2,-2,1,0,Tumblr
+2,0,0,1,0,1,2,0,Twitter
+2,-2,1,-1,0,-1,-2,0,I use none of these
+2,-2,1,-2,-1,0,1,-1,I use none of these
+2,1,0,1,-1,-1,0,-1,Instagram
+2,0,1,-1,-1,1,2,-1,Instagram
+1,-1,1,-1,-2,1,0,-1,Instagram
+1,0,0,-2,-2,0,1,-2,Tumblr
+0,2,2,0,0,-2,-2,-1,I use none of these
+0,2,0,-2,-2,1,1,-2,Tumblr
+2,0,0,1,-2,-2,1,-2,Instagram
+2,1,0,2,-2,1,2,0,Instagram
+-2,0,1,0,-1,-1,1,0,Instagram
+0,-1,0,-1,-2,-1,0,-1,Tumblr
+1,1,1,1,-1,0,1,-1,Pinterest
+2,0,-1,-2,-2,-2,0,0,I use none of these
+2,-1,0,-2,-2,-2,1,0,I use none of these
+2,0,1,-1,-1,0,0,-1,Instagram
+2,-1,0,1,-2,-1,0,-1,Instagram
+2,0,0,-1,-1,0,0,0,Instagram
+2,0,0,1,-2,1,1,-1,Instagram
+0,2,1,1,-1,1,1,-1,Instagram
+2,0,-2,2,-2,-2,-2,-2,Instagram
+2,1,1,-2,-1,1,0,-1,Pinterest
+2,0,-1,-1,-2,-1,0,-1,Tumblr
+0,1,-1,-2,-2,-1,-1,0,Tumblr
+2,-2,-1,1,-2,-1,-2,-2,Pinterest
+1,0,0,-2,-2,0,-1,-1,I use none of these
+2,-2,-2,-1,-2,-1,-2,-2,I use none of these
+2,-2,0,-1,-2,0,-2,-2,I use none of these
+1,-1,-2,-1,-2,-2,-1,0,Tumblr
+2,-1,-1,-2,-1,1,0,-2,Pinterest
+1,-2,0,-2,-2,-1,-1,-2,Tumblr
+2,-2,-1,-1,-2,0,0,-2,I use none of these
+1,-2,0,-2,-2,-2,1,-1,I use none of these
+1,-1,1,-1,-2,0,-1,-1,I use none of these
+2,-2,-1,-2,-2,-1,1,-2,Instagram
+2,-2,-1,-2,-2,-1,1,-2,Instagram
+2,2,0,-1,-1,0,1,0,Instagram
+1,0,0,-2,-2,-1,-1,-2,Tumblr
+2,2,-1,1,-1,-1,-2,0,I use none of these
+2,2,1,1,-2,0,0,-2,I use none of these
+2,1,1,1,-1,1,1,-1,Instagram
+1,-1,1,-1,-2,-2,0,-1,Twitter
+2,0,-2,-2,-2,-2,1,-2,I use none of these
+2,0,0,-1,-2,-2,1,-2,Instagram
+0,0,-1,-1,-2,-1,0,-1,I use none of these
+1,-1,0,-2,-2,0,1,-2,Twitter
+0,1,0,-2,-2,-2,1,0,Tumblr
+1,1,-1,-2,-2,0,2,1,Twitter
+1,-1,-1,1,-2,-1,0,-1,I use none of these
+1,2,0,-2,-1,1,1,-1,Instagram
+2,-1,0,1,-2,-2,-1,-1,Instagram
+1,-2,0,2,-2,0,0,-2,I use none of these
+2,-2,1,2,-2,0,-1,0,I use none of these
+2,0,1,-2,-2,-1,0,-2,I use none of these
+1,-1,-2,-1,-2,-2,-1,-2,Twitter
+0,0,0,-2,-1,0,1,0,Twitter
+1,2,2,-1,-2,0,1,-1,Tumblr
+2,-1,-2,-1,-2,-2,0,-1,Tumblr
+2,-1,1,1,-2,-2,1,0,I use none of these
+2,1,0,-1,-2,1,2,-1,Twitter
+1,2,1,-2,-1,-1,0,0,Tumblr
+2,0,0,2,-2,0,0,-1,Instagram
+2,0,-1,-2,-2,-2,0,-2,Twitter
+2,0,-1,2,-1,0,1,-1,Twitter
+2,-1,2,2,1,-1,2,-1,I use none of these
+1,1,-1,-2,-1,1,1,-1,Instagram
+2,0,1,2,-2,-1,1,-2,Tumblr
+1,1,0,-1,-1,1,1,0,Instagram
+2,0,0,1,-2,-1,-2,-2,Tumblr
+-2,-1,0,-2,-2,-2,-2,-2,Tumblr
+2,0,1,-1,-2,1,1,-1,Instagram
+-2,1,1,0,0,-2,0,1,Instagram
+2,-2,-1,1,-2,-2,-1,-1,Pinterest
+-2,0,0,2,-2,-2,1,-1,Twitter
+0,2,0,-2,-1,-1,2,1,Tumblr
+2,-1,1,1,-2,-1,-1,-2,I use none of these
+-2,1,2,-1,-2,-1,0,0,I use none of these
+2,-2,1,1,-2,-2,-2,-2,Instagram
+1,2,0,-2,-2,-2,-1,-2,Instagram
+1,0,0,1,-1,0,1,0,Instagram
+2,0,1,1,-2,0,0,-2,Instagram
+2,-2,1,1,-2,-1,1,-1,I use none of these
+2,-2,1,1,-2,-2,-1,-2,Instagram
+2,0,0,-1,-2,0,1,-1,Instagram
+1,-1,0,0,-2,-2,0,1,I use none of these
+-1,1,0,-2,-2,2,0,-1,Instagram
+2,0,2,1,-2,0,1,1,Twitter
+2,-1,-2,-2,-2,0,0,-2,Instagram
+2,-1,1,1,-2,-2,-1,-2,Instagram
+2,0,1,2,-2,1,0,0,I use none of these
+2,2,1,-2,-1,1,1,1,Instagram
+2,1,-1,-2,-2,-2,-2,-2,Twitter
+2,1,0,-1,-2,-2,-1,-2,Instagram
+2,-2,-1,1,-2,-2,-2,-2,I use none of these
+2,1,-2,-2,-2,-1,2,-2,Twitter
+2,1,0,2,-2,0,0,-1,Instagram
+2,0,0,1,-2,1,0,-2,Instagram
+0,1,1,1,-2,-2,0,0,Instagram
+1,2,1,-1,-2,1,2,-1,Instagram
+1,-2,-1,-1,-2,-2,1,-2,I use none of these
+2,-1,0,1,-1,-2,0,-1,Instagram
+-2,1,0,-2,-2,1,0,-2,I use none of these
+1,1,1,-2,-2,-1,1,-1,Tumblr
+2,1,0,-2,-2,1,-1,-1,I use none of these
+1,2,1,0,-2,-1,1,1,Instagram
+0,0,-1,-2,-2,-2,2,0,Twitter
+2,-2,0,-1,-2,-2,0,-2,I use none of these
+1,0,0,1,-2,-1,0,-2,Instagram
+1,-1,1,1,-2,1,-2,-2,Instagram
+-2,0,1,-1,-2,-1,1,0,Twitter
+0,-1,0,-1,-1,-1,0,0,Twitter
