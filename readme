@@ -1,0 +1,10 @@
+COT 4501 Group 11 Project
+
+John Hester
+Nancy Chen
+Megan Mackay
+Krystal Mejia
+
+The core folder contains the LLS classifiers and data for the minimum requirements of the project, the extra credit folder contains the LLS classifiers and data for the survey and zoo datasets.  We found that on the iris and wine datasets, our homegrown classifier is able to achieve accuracies ranging from ~70% in the wine dataset to ~90% on the iris dataset with a suitably chosen data set.  We also found that the additional column of ones added to the matrix of attributes could give a 10% improvement in accuracy in certain situations.  
+
+The main observation we have made through this process is that while the training set is pivotal in the execution of the linear least squares classifier, a large training set does not guarantee accurate results.  What is important is that members of every class are represented in the training set, with a variety of possible values of the attributes included.  For instance, the iris classifier using a large training set consisting almost entirely one species will be unable to reliably identify other species.  A much smaller training set has the potential to be much more successful, with a well chosen training set, if it is made up of a variety of representatives from each species.  
